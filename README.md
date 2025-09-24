@@ -22,5 +22,22 @@
 
 # Rotas
 
-- Authe
-  - [ ] ddfsd 
+- Autenticação/logar - publica
+  - [ ] xddcdcd
+- Criar usuario - publica
+  - [ ] ddfsd
+- Uma rota com esses 3 endpoits - sumary - filtrada pela data do mes
+  - Entrada - privada(id) 
+  - [ ] ddfsd
+  - saida - privada(id) 
+  - [ ] ddfsd
+  -  total - privada(id) 
+  - [ ] ddfsd
+- gastos - privada(id)
+- fixo - 
+- credito - filtrado por mes 
+- debito - filtrado por mes
+  - [ ] ddfsd
+- Buscar usuario(id) -privada
+  - [ ] ddfsdn    
+             
