@@ -25,7 +25,8 @@
 **Public**
 - Autenticação
   - [ ] /sign-in (POST)
-  - [ ] /aign-up (POST)
+  - [ ] /sign-up (POST)
+  - [ ] /logout (POST)
   - [ ] /refreshToken (Vai ser validado ainda como vai ser feito) (PATCH)
 
 **Privete (ID)**
@@ -46,8 +47,57 @@
   - [ ] CREATE
   - [ ] UPDATE
   - [ ] DELETE
+  
 
+# Contrato das Rotas
 
+**/sign-in** body
+```typescript
+{
+  email: "rublari3011@teste.com"
+  password: "rublari#12312"
+}
+```
 
-   
+**/sign-up** body
+```typescript
+{
+  name: "rublari"
+  email: "rublari3011@teste.com"
+  password: "rublari#12312"
+}
+```
+
+**/summary** Response
+```typescript
+{
+  entries: 1000,
+  exits: 500,
+  total: 500
+}
+```
+
+**/profile** Response
+```typescript
+{
+  name: "rublari"
+  email: "rublari3011@teste.com"
+  avatar: "adasdasdasd"
+}
+```
+
+**/entries** 
+- body (CREATE)
+```typescript
+{
+ 
+}
+```
+
+- body (DELETE)
+```typescript
+{
+  id: 12232
+}
+```
              
