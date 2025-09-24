@@ -36,14 +36,17 @@
   - [ ] CREATE
   - [ ] DELETE
 - /expenses/fixed
+  - [ ] GET
   - [ ] CREATE
   - [ ] UPDATE
   - [ ] DELETE
 - /expenses/credit (filtrada pela mes)
+  - [ ] GET
   - [ ] CREATE
   - [ ] UPDATE
   - [ ] DELETE
 - /expenses/debit (filtrada pela mes)
+  - [ ] GET
   - [ ] CREATE
   - [ ] UPDATE
   - [ ] DELETE
@@ -100,4 +103,93 @@
   id: 12232
 }
 ```
+
+**/expenses/fixed** 
+- body (CREATE)
+```typescript
+{
+ 
+}
+```
+
+- body (GET)
+```typescript
+{
+ 
+}
+```
+
+- body (UPDATE)
+```typescript
+{
+ 
+}
+```
+
+- body (DELETE)
+```typescript
+{
+ 
+}
+```
+
+**/expenses/credit** 
+- body (CREATE)
+```typescript
+{
+ 
+}
+```
+
+- body (GET)
+```typescript
+{
+ 
+}
+```
+
+- body (UPDATE)
+```typescript
+{
+ 
+}
+```
+
+- body (DELETE)
+```typescript
+{
+ 
+}
+```
+
+**/expenses/debit** 
+- body (CREATE)
+```typescript
+{
+ 
+}
+```
+
+- body (GET)
+```typescript
+{
+ 
+}
+```
+
+- body (UPDATE)
+```typescript
+{
+ 
+}
+```
+
+- body (DELETE)
+```typescript
+{
+ 
+}
+```
+
+
              
