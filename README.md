@@ -34,6 +34,7 @@
 - [ ] /profile - (GET)
 - /entries
   - [ ] CREATE
+  - [ ] UPDATE
   - [ ] DELETE
 - /expenses/fixed
   - [ ] GET
