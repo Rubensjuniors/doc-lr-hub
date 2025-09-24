@@ -22,22 +22,32 @@
 
 # Rotas
 
-- Autenticação/logar - publica
-  - [ ] xddcdcd
-- Criar usuario - publica
-  - [ ] ddfsd
-- Uma rota com esses 3 endpoits - sumary - filtrada pela data do mes
-  - Entrada - privada(id) 
-  - [ ] ddfsd
-  - saida - privada(id) 
-  - [ ] ddfsd
-  -  total - privada(id) 
-  - [ ] ddfsd
-- gastos - privada(id)
-- fixo - 
-- credito - filtrado por mes 
-- debito - filtrado por mes
-  - [ ] ddfsd
-- Buscar usuario(id) -privada
-  - [ ] ddfsdn    
+**Public**
+- Autenticação
+  - [ ] /sign-in (POST)
+  - [ ] /aign-up (POST)
+  - [ ] /refreshToken (Vai ser validado ainda como vai ser feito) (PATCH)
+
+**Privete (ID)**
+- [ ] /summary (filtrada pela mes) - (GET)
+- [ ] /profile - (GET)
+- /entries
+  - [ ] CREATE
+  - [ ] DELETE
+- /expenses/fixed
+  - [ ] CREATE
+  - [ ] UPDATE
+  - [ ] DELETE
+- /expenses/credit (filtrada pela mes)
+  - [ ] CREATE
+  - [ ] UPDATE
+  - [ ] DELETE
+- /expenses/debit (filtrada pela mes)
+  - [ ] CREATE
+  - [ ] UPDATE
+  - [ ] DELETE
+
+
+
+   
              
