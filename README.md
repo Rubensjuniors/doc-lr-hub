@@ -74,11 +74,11 @@
 
 **/summary** Response
 ```typescript
-{
-  entries: 1000,
-  exits: 500,
-  total: 500
-}
+[
+  { type: 'entries', value: 1000 },
+  { type: 'exits', value: 500 },
+  { type: 'total', value: 500 },
+]
 ```
 
 **/profile** Response
