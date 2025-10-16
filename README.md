@@ -51,6 +51,8 @@
   - [ ] CREATE
   - [ ] UPDATE
   - [ ] DELETE
+
+  - [ ] /expenses/last-month (Recebe quantidade de meses) - (GET)
   
 
 # Contrato das Rotas
@@ -189,6 +191,17 @@
 ```typescript
 {
  
+}
+```
+
+- /expenses/last-month (GET)
+- Response
+```typescript
+{
+    month: 5,
+    income: 5200,
+    expenses: 2300,
+    year: 25
 }
 ```
 
