@@ -100,6 +100,7 @@ _Relacionamento:_ Cada entrada pertence a um usuário. Deletar usuário apaga su
 - As operações de exclusão utilizam `CASCADE` para manter a integridade referencial, exceto em `expenses.category_id`, que usa `RESTRICT` para evitar exclusão acidental de categorias usadas.
 - Campos de data (`created_at`, `updated_at`, etc.) ajudam a controlar histórico e auditoria.
 
+```markdown
 ┌─────────────────┬─────────┬─────────┬─────────┬──────────────────────┐
 │     TABELA      │ CRIAR   │ EDITAR  │ APAGAR  │     OBSERVAÇÕES      │
 ├─────────────────┼─────────┼─────────┼─────────┼──────────────────────┤
@@ -116,6 +117,7 @@ _Relacionamento:_ Cada entrada pertence a um usuário. Deletar usuário apaga su
 ├─────────────────┼─────────┼─────────┼─────────┼──────────────────────┤
 │ CATEGORIAS      │   ✅    │   ✅    │   ✅    │ CRUD completo        │
 └─────────────────┴─────────┴─────────┴─────────┴──────────────────────┘
+```
 
 
 
