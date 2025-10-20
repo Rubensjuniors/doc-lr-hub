@@ -103,8 +103,7 @@ _Relacionamento:_ Cada entrada pertence a um usuário. Deletar usuário apaga su
 ┌─────────────────┬─────────┬─────────┬─────────┬──────────────────────┐
 │     TABELA      │ CRIAR   │ EDITAR  │ APAGAR  │     OBSERVAÇÕES      │
 ├─────────────────┼─────────┼─────────┼─────────┼──────────────────────┤
-│ ENTRADAS        │   ✅    │   ✅    │   ⚠️    │ Salário não pode     │
-│                 │         │         │         │ ser apagado          │
+│ ENTRADAS        │   ✅    │   ✅    │   ✅    │ CRUD completo        │
 ├─────────────────┼─────────┼─────────┼─────────┼──────────────────────┤
 │ SAÍDAS          │   🚫    │   🚫    │   🚫    │ Calculado            │
 │                 │         │         │         │ automaticamente      │
@@ -114,8 +113,8 @@ _Relacionamento:_ Cada entrada pertence a um usuário. Deletar usuário apaga su
 │ PARCELADOS      │   ✅    │   ✅    │   ✅    │ CRUD completo        │
 ├─────────────────┼─────────┼─────────┼─────────┼──────────────────────┤
 │ GASTOS_DEBITO   │   ✅    │   ✅    │   ✅    │ CRUD completo        │
-└─────────────────┴─────────┴─────────┴─────────┴──────────────────────┘
-│ CATEORIAS       │   ✅    │   ✅    │   ✅    │ CRUD completo        │
+├─────────────────┼─────────┼─────────┼─────────┼──────────────────────┤
+│ CATEGORIAS      │   ✅    │   ✅    │   ✅    │ CRUD completo        │
 └─────────────────┴─────────┴─────────┴─────────┴──────────────────────┘
 
 
