@@ -1,4 +1,4 @@
-<img width="952" height="728" alt="image" src="https://github.com/user-attachments/assets/e5f4401d-8758-4b7b-8daa-2ceb43884d44" />
+<img width="822" height="872" alt="db-lrhub" src="https://github.com/user-attachments/assets/2350a3d0-14da-43d2-b47e-df6f35ea6b00" />
 
 # Rules
 
