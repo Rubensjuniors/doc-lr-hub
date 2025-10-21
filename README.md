@@ -175,5 +175,48 @@ Essa arquitetura foi projetada para um sistema de controle financeiro pessoal, o
 * Facilidade de manutenção: Atualizações e inserções são feitas em tabelas específicas, o que minimiza impacto e erros.
 
 
+# Exemplo
+
+```markdown
+User                  Sistema                 Banco de Dados
+
+ |                       |                          |
+ |--- Criar categoria -->|                          |
+ |                       |--- Insere na Category -->|
+ |                       |                          |
+ |<------- OK -----------|                          |
+ |                       |                          |
+ |--- Criar despesa(à vista ou parcelada) ------->  |
+ |                       |--- Insere na Expenses -->|
+ |                       | (retorna expense_id)     |
+ |                       |                          |
+ | (Se parcelada)        |                          |
+ |--- Criar parcelas ----------->                   |
+ |                       |--- Insere na Installments|
+ |                       |   n vezes (1 por parcela)|
+ |                       |                          |
+ |<------- OK -----------|                          |
+ |                       |                          |
+ |--- Consultar despesas e parcelas --------------> |
+ |                       |--- Consulta Expenses     |
+ |                       |--- Consulta Installments |
+ |<-------- Lista de despesas e parcelas -----------|
+```
+
+## Passo a Passo de um Caso Prático
+* O usuário cria uma categoria chamada "Alimentação".
+* O usuário registra uma despesa "Compra no Mercado" no valor R$ 500,00, parcelada em 5 vezes.
+* O sistema insere a despesa na tabela expenses.
+* O sistema cria 5 parcelas na tabela installments, associadas à despesa.
+* O usuário paga a primeira parcela; o sistema atualiza o status da parcela para paga.
+* O usuário consulta suas despesas e vê as parcelas com seus status de pagamento atualizados.
+
+## Expenses (Despesas)
+Tabela principal para registro das despesas, contendo dados básicos e relacionamento com usuário e categoria.
+
+* O campo type é um ENUM que representa o tipo de despesa, podendo assumir 3 valores:
+ * FIXED: despesa fixa, recorrente (ex: aluguel, assinatura)
+ * DEBIT: despesa paga com cartão de débito, PIX ou dinheiro
+ * CREDIT: despesa paga com cartão de crédito
 
              
