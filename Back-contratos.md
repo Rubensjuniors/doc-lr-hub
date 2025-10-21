@@ -72,10 +72,24 @@
 ```
 
 **/entries** 
-- body (CREATE)
+- GET
 ```typescript
 {
- 
+  id: 'asdasdasda',
+  name: 'Salario',
+  amount: 5000.0,
+  dateOfReceipt: '2025-10-01',
+  createdAt,
+  updatedAt
+}
+```
+
+- POST
+```typescript
+{
+  name: 'Salario',
+  amount: 5000.0,
+  dateOfReceipt: '2025-10-01'
 }
 ```
 
