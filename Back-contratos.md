@@ -3,18 +3,18 @@
 
 **Public**
 - Autenticação
-  - [ ] /sign-in (POST)
-  - [ ] /sign-up (POST)
+  - [x] /sign-in (POST)
+  - [x] /sign-up (POST)
   - [ ] /logout (POST)
   - [ ] /refreshToken (Vai ser validado ainda como vai ser feito) (PATCH)
 
 **Privete (ID)**
-- [ ] /summary (filtrada pela mes) - (GET)
+- [x] /summary (filtrada pela mes) - (GET)
 - [ ] /profile - (GET)
 - /entries
-  - [ ] CREATE
-  - [ ] UPDATE
-  - [ ] DELETE
+  - [x] CREATE
+  - [x] UPDATE
+  - [x] DELETE
 - /expenses/fixed
   - [ ] GET
   - [ ] CREATE
